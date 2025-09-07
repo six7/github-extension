@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <rect width="16" height="16" fill="#0969da" rx="4"/>
+  <g fill="white">
+    <rect x="4" y="5" width="2" height="2" />
+    <rect x="8" y="5" width="2" height="2" />
+    <rect x="4" y="8" width="8" height="1" />
+  </g>
+  <text x="8" y="12" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="2" font-weight="bold">DIFF</text>
+</svg>

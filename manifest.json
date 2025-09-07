@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub PR Diff Copier",
+  "version": "1.0.0",
+  "description": "Add 'Copy diff' option to file menus in GitHub pull requests",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.svg",
+    "48": "icon48.svg",
+    "128": "icon128.svg"
+  }
+}
