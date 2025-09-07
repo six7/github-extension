@@ -17,7 +17,8 @@ class GitHubDiffCopier {
   }
 
   isGitHubPRPage() {
-    return window.location.hostname === 'github.com' && 
+    return (window.location.hostname === 'github.com' || 
+            (window.location.hostname === 'localhost' && window.location.pathname.includes('/pull/'))) && 
            window.location.pathname.includes('/pull/');
   }
 

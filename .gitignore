@@ -1,0 +1,28 @@
+# Test files
+test.html
+
+# Validation script (optional - can be included if desired)
+validate.py
+
+# Node modules and dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Browser extension artifacts
+*.zip
+*.crx
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
