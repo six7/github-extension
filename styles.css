@@ -1,0 +1,52 @@
+/* GitHub PR Diff Copier Styles */
+
+.copy-diff-btn {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  padding: 8px 16px !important;
+  border: none !important;
+  background: none !important;
+  color: inherit !important;
+  text-align: left !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+}
+
+.copy-diff-btn:hover {
+  background-color: var(--color-neutral-subtle) !important;
+  text-decoration: none !important;
+}
+
+.copy-diff-btn svg {
+  margin-right: 8px !important;
+  flex-shrink: 0 !important;
+}
+
+.github-diff-copier-notification {
+  position: fixed !important;
+  top: 20px !important;
+  right: 20px !important;
+  z-index: 9999 !important;
+  max-width: 400px !important;
+  box-shadow: 0 8px 24px rgba(140, 149, 159, 0.2) !important;
+}
+
+/* Ensure notifications don't interfere with GitHub's layout */
+.github-diff-copier-notification .d-flex {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.github-diff-copier-notification .flex-auto {
+  flex: 1 1 auto !important;
+}
+
+.github-diff-copier-notification .flash-close {
+  border: none !important;
+  background: none !important;
+  color: inherit !important;
+  padding: 4px !important;
+  margin-left: 8px !important;
+  cursor: pointer !important;
+}
